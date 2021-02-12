@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <Link rel="stylesheet" href="stil.css">
+    
+  </head>
+  
+  <body bgcolor=yellow>
+    
+    <a href="index.html">startside</a>
+    <a href="Min Favorit Video.html"> Min favorit video</a>
+    <a href="Spillehall.html">Spillehall</a>
+    
+    <div id = tekst>
+    <center>
+      <h1>Felix Kvande</h1>
+      <img src="Felix bilde">
+      
+      
+        
+      <h2>Hallo, mitt navn er Felix, jeg er 14 år og har bursdag 8.september. Det jeg liker aller mest og gjøre er og spille dataspill. Mine foreldre bor ikke sammen så jeg flytter mellom de vær uke. jeg går i 9c på rosenborg skole. Jeg har en lillesøster. hun er 11 år. når jeg blir voksen øsnker jeg og jobbe med og lage spill i stedet for og spille spill, jeg har aller lyst til og lage spill for nintendo.</h2>
+      
+      
+      
+      <h2>Her er noen ting jeg liker å  gjøre:</h2>
+      </center>
+     
+      <h2 id=Mylist>
+      <li id="1">Spille dataspill</li>
+      <li id="2">Spille Magic The Gathering</li>
+      <li id="3">Lage spill</li>
+      <li id="4">Se på Netflix</li>
+      <li id="5">Mattematikk</li>
+      </h2>
+      
+       <input type="button" value="Trykk meg!" onclick="trykkMeg()">
+      
+      </div>
+    
+        <style>
+    
+   
+    a:hover {
+      color:red;
+    }
+    
+    li:hover {
+      color:pink;
+    }
+  </style>
+  
+  <div hidden id="tekst">
+    
+    
+  <input type="button" value="Trykk meg for normal!" onclick="Tilbake">
+    
+    
+  </div>
+ 
+  
+  
+    <script>
+      
+      const trykkMeg = () => {
+        let nyTekst ="<button></button> <center><h1>Bø</h1></center>";
+        let tekst = document.getElementById("tekst");
+        tekst.innerHTML = nyTekst;
+      }
+      
+      
+      
+      
+    </script>
+    
+  </body>
+  
+</html>
