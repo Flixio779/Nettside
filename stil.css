@@ -1,0 +1,192 @@
+#FavVid {
+  color:blue;
+  text-align:center;
+}
+
+#Video {
+  height:600px;
+  width:1000px;
+}
+
+
+#SPILLEHALL {
+  color:white;
+  text-align:center;
+}
+
+
+
+#Mylist {
+  margin-left: 600px;
+ }
+ 
+#listespill {
+  display: table;
+  margin: 0 auto;
+  color: red;
+  font-size: 40px;
+
+ }
+ 
+#listespill li {
+  margin-bottom: 50px;
+  margin-right:50px;
+  list-style-type: none;
+}
+
+#SPILLEHALL {
+  font-size:80px;
+}
+
+#SPILLEHALL:hover {
+  color:yellow;
+}
+
+#PingPong:hover {
+  color:black;
+  background-color:grey;
+  
+}
+
+#PingPong {
+  background-color:white;
+ 
+}
+
+#GunFight:hover {
+  color:red;
+  background-color:grey;
+}
+
+#GunFight {
+  background-color:white;
+}
+
+#Snake:hover {
+  color:green;
+  background-color:grey;
+}
+
+#Snake {
+  background-color:white;
+}
+
+#Tetris:hover {
+  color:cyan;
+  background-color:grey;
+}
+
+#Tetris {
+  background-color:white;
+}
+
+#Link1:hover {
+  color:red;
+}
+
+#Link1 {
+  background-color:white;
+}
+
+#Link2:hover {
+  color:red;
+}
+
+#Link2 {
+  background-color:white;
+}
+
+#Link3:hover {
+  color:red;
+}
+
+#Link3 {
+  background-color:white;
+}
+
+#backgroundimage {
+  background: url(bilde.jpeg);
+}
+
+#torn {
+  background: url(torn.jpeg);
+  background-repeat:no-repeat;
+  background-size:1600px;
+}
+
+
+
+
+body {
+  background-color:#607D8B;
+}
+
+
+
+
+
+
+h1{
+  color:rgba(100, 50, 255, .8);
+  font-family: 'Pacifico', cursive;
+  color:#212121;
+}
+
+.rainbow {
+                                                 //denne koden har jeg tadt fra nettet, men jeg har endret fargene og en giganstisk bokst som komm, jeg har endret koden en god del.
+
+  
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 5s infinite;
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 5s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  0%{color: orange;}
+  10%{color: purple;}
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+   0%{color: orange;}
+  10%{color: purple;}
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+    0%{color: orange;}
+  10%{color: purple;}
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
